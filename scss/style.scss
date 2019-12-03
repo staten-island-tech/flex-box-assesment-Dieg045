@@ -1,4 +1,10 @@
-.flex-parent {
-    height: 50vh;
-    background-color: turquoise;
+body {
+    background-color: rgbacolor(#0D47A1)
 }
+
+.flex-parent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+

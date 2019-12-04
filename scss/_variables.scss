@@ -1,0 +1,6 @@
+$colors: (
+    primarymenu: #0D47A1
+);
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}

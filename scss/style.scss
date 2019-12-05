@@ -12,19 +12,19 @@ body {
 }
 
 .flex-child {
-    height: 25vh;
     background-color: lightblue;
 }
 
 #flex-grow {
     flex-grow: 1;
+    background-color: primarymenu;
 }
 
 #flex-grow2 {
-    flex-grow: 2;
+    flex-grow: 1;
     display: flex;
 }
 
 #flex-grow3 {
-    flex-grow: 3;
+    flex-grow: 1;
 }

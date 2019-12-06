@@ -1,6 +1,9 @@
 $colors: (
-    primarymenu: #0D47A1
+  primarymenu: #0d47a1,
+  secondarymenu: #303f9f,
+  thirdcolor: #64b5f6,
+  backcolor: #64ffda
 );
 @function color($color-name) {
-    @return map-get($colors, $color-name);
+  @return map-get($colors, $color-name);
 }

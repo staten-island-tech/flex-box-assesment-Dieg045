@@ -23,14 +23,21 @@ body {
   text-align: center;
 }
 
+#image {
+  
+}
+
 #flex-grow2 {
   flex-grow: 1;
   display: flex;
   background-color: color(thirdcolor);
+  font-size: 3rem;
 }
 
 #flex-grow3 {
   flex-grow: 1;
+  font-size: 3rem;
+  text-align: right;
 }
 //font-family: 'Alfa Slab One', cursive;
 //font-family: 'Amaranth', sans-serif;

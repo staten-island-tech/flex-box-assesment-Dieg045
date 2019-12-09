@@ -32,11 +32,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #64b5f6;
+  font-size: 3rem;
 }
 
 #flex-grow3 {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  font-size: 3rem;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */

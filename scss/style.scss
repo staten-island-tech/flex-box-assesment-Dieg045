@@ -1,14 +1,13 @@
 @import "./_variables.scss";
 
-body {
-  background-color: color(backcolor);
-}
+//body {
+  //background-color: color(backcolor);
+//}
 
 .flex-parent {
   height: 98vh;
-  display: flex;
   flex-direction: column;
-  background-color: color(primarymenu);
+  //background-color: color(primarymenu);
 }
 
 //.flex-child {
@@ -16,31 +15,36 @@ body {
 //}
 
 #flex-grow {
-  flex-grow: 1;
-  background-color: color(secondarymenu);
-}
-
-#ssbu {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+  height: 33vh;
+  background-color: color(primarymenu);
   text-align: center;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-//#image {
-//  height: 1rem;
+//#ssbu {
+ // font-family: 'Alfa Slab One', cursive;
+ // font-size: 3rem;
+ // text-align: center;
 //}
 
+#logo {
+  height: 5rem;
+}
+
 #flex-grow2 {
-  flex-grow: 1;
-  display: flex;
-  background-color: color(thirdcolor);
+  height: 32vh;  
+  //background-color: color(thirdcolor);
   font-size: 3rem;
 }
 
 #flex-grow3 {
-  flex-grow: 1;
-  font-size: 3rem;
+  height: 33vh;
   text-align: right;
+  background-color: color(secondarymenu);
 }
 //font-family: 'Alfa Slab One', cursive;
 //font-family: 'Amaranth', sans-serif;

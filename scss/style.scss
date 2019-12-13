@@ -10,6 +10,13 @@
   //background-color: color(primarymenu);
 }
 
+.flex-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 //.flex-child {
 //background-color: lightblue;
 //}
@@ -21,8 +28,9 @@
   background-color: color(primarymenu);
   text-align: center;
   font-size: 5rem;
-  display: flex;
-  flex-direction: column;
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
 }
 
 //#ssbu {
@@ -32,19 +40,33 @@
 //}
 
 #logo {
-  height: 5rem;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
 }
 
 #flex-grow2 {
   height: 32vh;  
   //background-color: color(thirdcolor);
   font-size: 3rem;
+ // display: flex;
+  //flex-direction: column;
+  //align-items: center;
+}
+
+#arbol {
+  height: 12rem;
 }
 
 #flex-grow3 {
   height: 33vh;
   text-align: right;
   background-color: color(secondarymenu);
+  font-size: 4rem;
+}
+
+#puff {
+  height: 12rem;
 }
 //font-family: 'Alfa Slab One', cursive;
 //font-family: 'Amaranth', sans-serif;

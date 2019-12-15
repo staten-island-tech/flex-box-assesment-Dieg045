@@ -31,9 +31,6 @@
 #logo {
   height: 10rem;
   width: 10rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 #flex-grow2 {
@@ -54,5 +51,20 @@
 
 #puff {
   height: 12rem;
+}
+
+.secondpage {
+  height: 100vh;
+}
+
+.title {
+  height: 10vh;
+  text-align: center;
+  margin: 0;
+}
+
+.characters {
+  height: 80vh;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

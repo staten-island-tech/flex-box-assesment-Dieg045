@@ -1,13 +1,8 @@
 @import "./_variables.scss";
 
-//body {
-  //background-color: color(backcolor);
-//}
-
 .flex-parent {
   height: 98vh;
   flex-direction: column;
-  //background-color: color(primarymenu);
 }
 
 .flex-child {
@@ -16,11 +11,6 @@
   align-items: center;
 }
 
-
-//.flex-child {
-//background-color: lightblue;
-//}
-
 #flex-grow {
   padding: 0;
   margin: 0;
@@ -28,9 +18,6 @@
   background-color: color(primarymenu);
   text-align: center;
   font-size: 5rem;
-  //display: flex;
-  //flex-direction: column;
-  //align-items: center;
 }
 
 //#ssbu {
@@ -42,16 +29,11 @@
 #logo {
   height: 10rem;
   width: 10rem;
-  display: flex;
 }
 
 #flex-grow2 {
   height: 32vh;  
-  //background-color: color(thirdcolor);
   font-size: 3rem;
- // display: flex;
-  //flex-direction: column;
-  //align-items: center;
 }
 
 #arbol {
@@ -67,6 +49,21 @@
 
 #puff {
   height: 12rem;
+}
+
+.secondpage {
+  height: 100vh;
+}
+
+.title {
+  height: 10vh;
+  text-align: center;
+  margin: 0;
+}
+
+.characters {
+  height: 80vh;
+  margin: 0;
 }
 //font-family: 'Alfa Slab One', cursive;
 //font-family: 'Amaranth', sans-serif;

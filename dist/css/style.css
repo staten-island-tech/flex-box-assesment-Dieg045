@@ -67,4 +67,11 @@
   height: 80vh;
   margin: 0;
 }
+
+.columns {
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  width: 24vw;
+}
 /*# sourceMappingURL=style.css.map */

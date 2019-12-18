@@ -64,13 +64,17 @@
 .characters {
   height: 80vh;
   margin: 0;
+  display: flex;
 }
 
 .columns {
-  height: 80vh;
   margin: 0;
   padding: 0;
   width: 24vw;
+  flex-grow: 1;
+  background-color: color(secondbackground);
+  display: flex;
+  flex-direction: column;
 }
 
 //font-family: 'Alfa Slab One', cursive;

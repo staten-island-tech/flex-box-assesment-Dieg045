@@ -70,12 +70,25 @@
 .columns {
   margin: 0;
   padding: 0;
-  width: 24vw;
-  flex-grow: 1;
+  width: 24.5vw;
   background-color: color(secondbackground);
   display: flex;
   flex-direction: column;
 }
+
+//contents in column 1
+
+#explanation {
+  height: 23vh;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+#photo1 {
+  width: 14vw;
+  padding: 0 5.25vw;
+}
+
+
 
 //font-family: 'Alfa Slab One', cursive;
 //font-family: 'Amaranth', sans-serif;

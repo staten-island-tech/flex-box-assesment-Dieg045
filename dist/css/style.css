@@ -87,8 +87,8 @@
 
 #explanation {
   height: 23vh;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
 }
 
 #photo1 {
